@@ -6,7 +6,7 @@ body{
 }
 
 h1{
- color:white;
+  color:white;
   background: linear-gradient(90deg,#ff6a00,#ee0979);
   padding:15px;
   border-radius:10px;
@@ -26,4 +26,14 @@ button{
 
 button:hover{
   background:#0056b3;
+}
+
+#slide{
+  display:none;
+  margin-top:30px;
+}
+
+#slide img{
+  width:300px;
+  border-radius:10px;
 }
